@@ -1,7 +1,9 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:productionapp/firebase_options.dart';
-import 'package:productionapp/pages/home.dart';
+import 'package:productionapp/pages/bottomnav.dart';
+import 'package:productionapp/pages/login.dart';
+
 
 
 void main()async {
@@ -22,7 +24,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: Home()
+      home: Login()
     );
   }
 }
